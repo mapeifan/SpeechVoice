@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_guide"
+    tools:context="com.aispeech.ddsdemo.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/main_web_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_above="@+id/input_field"
+        android:background="#00000000"></RelativeLayout>
+
+
+    <com.aispeech.ddsdemo.widget.InputField_
+        android:id="@+id/input_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.aispeech.ddsdemo.widget.InputField_>
+
+</LinearLayout>
